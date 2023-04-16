@@ -5,7 +5,7 @@ This is an installable modification for the videogame, Minecraft Java Edition.
 Utilizing Java and some JSON, I created a modification to the game's combat system to improve the players' experience.
 
 ## Download
-View the mod: [(CurseForge)](https://www.curseforge.com/minecraft/mc-mods/t6-auto-attack-mod)
+View the mod: [(Modrinth)](https://modrinth.com/mod/t6-auto-attack)
 
 ## Developer Guide
 
