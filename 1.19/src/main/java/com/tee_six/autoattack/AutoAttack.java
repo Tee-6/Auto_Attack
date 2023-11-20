@@ -4,6 +4,7 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.entity.Entity;
+import net.minecraft.util.Hand;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.fabricmc.api.EnvType;
@@ -19,6 +20,7 @@ public class AutoAttack implements ClientModInitializer {
 					Entity entity = ((EntityHitResult)client.crosshairTarget).getEntity();
 					if (entity.isAlive() && entity.isAttackable()) {
 						client.interactionManager.attackEntity(client.player, entity);
+						client.player.swingHand(Hand.MAIN_HAND);
 					}
 				}
 			}
