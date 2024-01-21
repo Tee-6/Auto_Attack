@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help improve the mod
-title: ''
+title: 'Bug: '
 labels: ''
 assignees: ''
 
