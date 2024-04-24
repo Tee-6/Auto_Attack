@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "autoattack",
+  "version": "${version}",
+
+  "name": "Auto Attack",
+  "description": "Automatically time perfect attacks when holding down attack button.",
+  "authors": [
+    "Tee_Six"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/auto-attack-mod-fabric"
+  },
+
+  "license": "MIT",
+  "icon": "assets/autoattack/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tee_six.autoattack.AutoAttack"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.20.x",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
