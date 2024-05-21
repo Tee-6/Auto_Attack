@@ -15,7 +15,7 @@ public class AutoAttack implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
-			if (client.options.attackKey.isPressed() && client.player != null && client.player.getAttackCooldownProgress(0) >= 1) {
+			if (client.options.attackKey.isPressed() && client.player != null && client.player.getAttackCooldownProgress(0) >= 1 && !client.player.isBlocking()) {
 				if (client.crosshairTarget != null && client.crosshairTarget.getType() == HitResult.Type.ENTITY) {
 					Entity entity = ((EntityHitResult)client.crosshairTarget).getEntity();
 					if (entity.isAlive() && entity.isAttackable()) {
