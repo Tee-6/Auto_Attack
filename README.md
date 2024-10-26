@@ -21,3 +21,10 @@ View the mod: [(CurseForge)](https://www.curseforge.com/minecraft/mc-mods/t6-aut
 ### To build
 Enter ```./gradlew build``` into the terminal.<br>
 The build will appear in the *build/libs* folder
+
+### To release
+- Commit changes for the new version
+- Navigate to the [release page](https://github.com/Tee-6/Auto_Attack/releases)
+- Create new release
+- Create a new tag with the version number
+- Upload a file of the mod (same file that's uploaded to CurseForge
