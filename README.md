@@ -7,6 +7,8 @@ Utilizing Java and some JSON, I created a modification to the game's combat syst
 ## Download
 View the mod: [(CurseForge)](https://www.curseforge.com/minecraft/mc-mods/t6-auto-attack-mod)
 
+![Demonstration Gif](demo.gif)
+
 ## Developer Guide
 
 ### To update
